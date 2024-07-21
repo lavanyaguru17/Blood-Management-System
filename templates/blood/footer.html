@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .footer {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #FF0018;
+      color: white;
+      text-align: center;
+      height: 60px;
+      padding: 20px 0; /* Adjust padding for better spacing */
+      position: fixed; /* Fix the footer at the bottom of the viewport */
+      z-index: 999; /* Ensure the footer stays above other content */
+      font-size: 16px; /* Default font size */
+    }
+   /* Responsive styles for the footer */
+   @media only screen and (max-width: 1024px) {
+      .footer {
+        font-size: 15px; /* Decrease font size for screens up to 1024px */
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      .footer {
+        font-size: 14px; /* Decrease font size for screens up to 768px */
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      .footer {
+        font-size: 13px; /* Decrease font size for screens up to 600px */
+      }
+    }
+    @media only screen and (max-width: 480px) {
+      .footer {
+        font-size: 12px; /* Further decrease font size for screens up to 480px */
+      }
+    }
+    @media only screen and (max-width: 360px) {
+      .footer {
+        font-size: 11px; /* Further decrease font size for screens up to 360px */
+      }
+    }
+    @media only screen and (max-width: 320px) {
+      .footer {
+        font-size: 10px; /* Further decrease font size for screens up to 320px */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="footer">
+    <p>Blood Bank Management System
+      
+      Made In India &copy; 2024
+    </p>
+  </div>
+</body>
+</html>
